@@ -1,0 +1,109 @@
+p, body, h1{
+    margin: 5px;
+    padding: 0px;
+
+}
+
+p{
+	color:#7828FD;
+	font-size: 30px;
+}
+
+body{
+    font-family: Comic Sans;
+    font-size: 30px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color:#FDEE82
+}
+
+header{
+    background-color: #ADD2D8;
+  
+ }
+
+ 
+.janela{
+    width: 250px;
+    height: 100px;
+    border: 1px solid #ababab;
+    margin-left: 50px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    float: left;
+}
+
+.imgUser{
+    width: 90px;
+    height: 85px;
+    float: left;
+    border-radius: 100px;
+    margin-left: 2px;
+}
+
+.info{
+    width: 155px;
+    height: 100px;
+    float: left;
+    margin-left: 3px;
+}
+
+.nomeUser{
+    width: 150px;
+    height: 20px;
+    font-size: 12px;
+    text-align: justify;
+    color: #9472fc;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mensagemUser{
+    width: 150px;
+    height: 60px;
+    font-size: 12px;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.comentários{
+ width: 260%;
+height: 500px;
+padding-top: 20px;
+text-align: center;
+}
+
+.aba{
+	width: 250px;
+    height: 100px;
+    margin-left: 50px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    float: left;
+ }
+.ator{
+    float: left;
+ 
+}
+ 
+.imgAtor{
+    width: 150px;
+    height: 150px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+
+ }
+
+ .personagem, .nomeAtor{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    font-family: comic Sans;
+    margin-top: 15px;
+}
+
