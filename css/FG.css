@@ -21,9 +21,42 @@ body{
 }
 
 header{
-    width: 1000px;
-    height: 60px;
-    background-color: lightgreen;
+    width: 100%;
+    height: 35px;
+    background-color: aliceblue;
+    padding-top: 15px;
+}
+
+.centro{
+    width: 100%;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-image: url(../img/Captura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+}
+.page{
+    width: 190px;
+    height: 20px;
+    float: left;
+    text-align: center;
+    border-right: solid 1px black;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.page:hover{
+background-color: #63d8ff;
+transition: 1s;
 }
 
 .slider{
@@ -129,11 +162,53 @@ header{
 }
 
 footer{
-    width: 1000px;
-    height: 60px;
-    background-color: lightgray;
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
     padding-top: 10px;
-    z-index: 1;
+}
+
+.redes{
+    width: 500px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+}
+
+.texto{
+    width: 250px;
+    height: 20px;
+    float: left;
+}
+
+.face, .twitter, .insta{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    float: left;
+}
+
+.face{
+    background-image: url(../img/facebook.png);
+    background-size: cover;
+}
+
+.insta{
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+    background-size: cover;
+}
+
+.copyright{
+    width: 360px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
 }
 
 /* Css responsavel pelo slider*/

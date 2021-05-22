@@ -1,9 +1,51 @@
 body{
     background-color: rgb(89, 63, 94);
+    margin: 0;
+    padding: 0;
 }
 
 img{
     border: 2px ridge black;
+}
+
+header{
+    width: 100%;
+    height: 35px;
+    border-bottom: solid 1px white;
+    padding-top: 15px;
+}
+
+.centro{
+    width: 1000px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    float: left;
+    background-image: url(../img/Captura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -10px;
+}
+.page{
+    width: 160px;
+    height: 20px;
+    float: left;
+    margin-left: 30px;
+    text-align: center;
+    border-right: solid 1px black;
+    text-decoration: none;
+    color: black;
+    color: white;
+}
+
+.page:hover{
+background-color: rgb(22, 19, 22);;
+transition: 1s;
 }
 
 .inicio{
@@ -34,7 +76,7 @@ img{
     text-align: center;
 }
 
-.texto{
+.texto1{
     text-align: center;
     font-size: large;
 }
@@ -129,4 +171,56 @@ img{
 .coment{
     margin-left: 30px;
     
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    border-top: solid 1px white;
+    padding-top: 10px;
+    color: white;
+    margin-top: -9px;
+}
+
+.redes{
+    width: 500px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+}
+
+.texto{
+    width: 250px;
+    height: 20px;
+    float: left;
+}
+
+.face, .twitter, .insta{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    float: left;
+}
+
+.face{
+    background-image: url(../img/facebook.png);
+    background-size: cover;
+}
+
+.insta{
+    background-image: url(../img/instagram.png);
+    background-size: cover;
+}
+
+.twitter{
+    background-image: url(../img/twitter.png);
+    background-size: cover;
+}
+
+.copyright{
+    width: 345px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
 }
