@@ -44,8 +44,9 @@ header{
 }
 
 .page:hover{
-background-color: rgb(255, 239, 146);
+background-color: #e8030f;
 transition: 1s;
+color: white;
 }
 /*CAPA DIO FIME*/
 .filme{
